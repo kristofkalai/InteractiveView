@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "interactiveview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/InteractiveView",
+      "state" : {
+        "revision" : "0bfb05dff9503f5caff559a7402bb0a822f2a5ab",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

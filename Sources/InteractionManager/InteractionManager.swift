@@ -8,7 +8,7 @@
 import SwiftUI
 
 public final class InteractionManager: NSObject {
-    private final class PanGestureRecognizer: UIPanGestureRecognizer { }
+    private final class PanGestureRecognizer: UIPanGestureRecognizer {}
     private final class TapGestureRecognizer: UILongPressGestureRecognizer {
         override init(target: Any?, action: Selector?) {
             super.init(target: target, action: action)
@@ -47,7 +47,7 @@ extension InteractionManager {
     }
 }
 
-extension InteractionManager: ObservableObject { }
+extension InteractionManager: ObservableObject {}
 
 extension InteractionManager: UIGestureRecognizerDelegate {
     public func gestureRecognizer(
